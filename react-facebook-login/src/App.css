@@ -1,0 +1,38 @@
+.wrapper {
+	min-height: 100vh;
+	background-color: #8ec5fc;
+	background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.wrapper,
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+	flex-direction: column;
+	padding: 2rem 5rem 3rem;
+	background-color: #fcfcfc;
+	border-radius: 1rem;
+}
+.button-facebook {
+	padding: 0.5rem 1rem;
+	background-color: #4267b2;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fcfcfc;
+	transition: opacity 0.3s;
+}
+.button-facebook-text {
+	color: #fcfcfc;
+	line-height: 1;
+	font-size: 1rem;
+	margin-left: 0.5rem;
+}
+.button-facebook:hover {
+	opacity: 0.8;
+}
